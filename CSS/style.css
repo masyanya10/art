@@ -1,0 +1,115 @@
+div.fone {
+    background-color: #ffffff;
+    background-image: url(../Img/фон.jpg);
+    height: 100%;
+    position:fixed;
+    width: 100%;
+    z-index: -1;
+    background-size: 100% 100%;
+}
+
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 0%; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: rgb(35, 39, 43); /* Цвет подрисуночной подписи */
+    object-fit: cover;
+    display:inline-block;
+
+}
+
+div.left_col {
+    line-height: 100vh;
+}
+
+.main_content{
+    margin-bottom: 300px; 
+}
+
+h1{
+    background: rgb(197, 179, 179);
+    font: strong 160% Calibri;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #777;
+    border-radius: 10px;
+
+}
+
+h2{
+    background: rgb(236, 216, 216);
+    font: bold 110% Calibri;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.75;
+    font-weight: 500;
+}
+
+.reg{
+    margin-left: 30%; /* Отступ слева */
+    width: 40%; /* Ширина слоя */
+    background: rgb(169, 223, 245); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+.winlogo{
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+}
+
+.logo_container {
+    display: inline-block;
+    height: 100px;
+    margin: 32px 0 0 227px;
+    position: relative;
+    vertical-align: top;
+    width: 117px;
+}
+
+.logo_container img {
+    max-height: 117px;
+    max-width: 110px;
+    margin-left: 270%;
+}
+
+body {
+    font-family: Times New Roman;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*p {
+    text-indent: 24px; /* Отступ первой строки в пикселах 
+
+}*/
+
+.site_container {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: 1044px;
+}
+
+div#uper {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+#info_links {
+
+    font: bold 180% Calibri;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+

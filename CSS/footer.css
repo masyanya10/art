@@ -1,0 +1,9 @@
+.footer_content {
+    color: #000;
+    font-size: 12px;
+    margin: 0 auto !important;
+    width: 100%;
+    background: #f1c0c0 none repeat scroll 0 0;
+    position: fixed;
+    bottom: 0;
+}
